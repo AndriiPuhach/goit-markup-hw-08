@@ -1,0 +1,20 @@
+.logo {
+  font-family: $logo-text-font;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  &__first-part {
+    color: $first-logo-color;
+  }
+  &__second-part_dark {
+    color: $second-logo-color;
+  }
+  &__second-part_light {
+    color: $third-logo-color;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}

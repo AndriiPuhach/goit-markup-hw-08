@@ -1,0 +1,13 @@
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  transition: opacity 250ms $time-function, visibility 250ms $time-function;
+}
+
+.backdrop.is-hidden .modal {
+  transform: rotate(180deg);
+  transition: transform 250ms $time-function;
+}
