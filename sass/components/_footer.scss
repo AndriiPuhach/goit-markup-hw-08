@@ -6,10 +6,10 @@
 
 .footer-box {
   text-align: center;
+  margin-bottom: 60px;
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 60px;
     align-items: baseline;
   }
   @media screen and (min-width: 1200px) {
@@ -66,7 +66,6 @@
 }
 
 .join-us {
-  margin-bottom: 60px;
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
   }
@@ -131,7 +130,6 @@
 
 .logo {
   display: block;
-  margin-bottom: 20px;
 }
 
 .online-form {
