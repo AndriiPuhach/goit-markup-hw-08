@@ -123,25 +123,21 @@
 }
 
 .check__item {
+  @include flexed;
   width: 16px;
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
   box-sizing: border-box;
   margin-right: 7px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .check__text {
-  display: flex;
+  @include flexed;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: $main-text-color;
-  align-items: center;
-  justify-content: center;
   @media screen and (min-width: 1200px) {
     font-size: 14px;
     line-height: 1.71;
@@ -176,6 +172,7 @@
 }
 
 .modal__close-btn {
+  @include flexed;
   width: 30px;
   height: 30px;
   position: absolute;
@@ -186,9 +183,6 @@
   border-radius: 50%;
   cursor: pointer;
   padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   outline: none;
   transition: fill 250ms $time-function;
   &:hover {

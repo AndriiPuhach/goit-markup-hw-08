@@ -46,13 +46,11 @@
 }
 
 .customers__link {
-  display: flex;
+  @include flexed;
   height: 92px;
   width: 100%;
   border: 1px solid $base-svg-color;
   border-radius: 4px;
-  align-items: center;
-  justify-content: center;
   color: $base-svg-color;
   transition: color 250ms $time-function, border-color 250ms $time-function;
   &:hover,
