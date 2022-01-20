@@ -16,5 +16,5 @@
 
 .backdrop.is-hidden .modal {
   transform: rotate(180deg);
-  transition: transform 250ms $time-function;
+  transition: transform $transition-duration $time-function;
 }
